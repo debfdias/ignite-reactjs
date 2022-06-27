@@ -13,8 +13,8 @@ Collection of annotations, challenges and several content of Ignite's ReactJS tr
 ### Chapter I
 
 - [Github Repository - The first project](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_I/GitHubRepository)
-- [Challenge 01 - ReactJS fundamentals](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_I)
-- [Challenge 02 - Application components](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_I)
+- [Challenge 01 - ReactJS fundamentals](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_I/challenge1)
+- [Challenge 02 - Application components](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_I/challenge2)
 
 ### Chapter II
 
