@@ -12,10 +12,10 @@ Collection of annotations, challenges and several content of Ignite's ReactJS tr
 
 ### Chapter I
 
-- [Classes 01   - The first project](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_I/classes)
+- [Github Repository - The first project](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_I/classes)
 - [Challenge 01 - ReactJS fundamentals](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_I)
 - [Challenge 02 - Application components](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_I)
 
 ### Chapter II
 
-Yet to go...
+- [DT Money - Going deeper into React](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_II/dt_money)
