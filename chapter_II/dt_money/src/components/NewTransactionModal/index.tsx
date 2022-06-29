@@ -1,40 +1,39 @@
-import { Container, TransactionTypeContainer, RadioBox } from "./styles"
+import { FormEvent, useState } from "react";
 import Modal from 'react-modal';
+import { useTransactions } from '../../hooks/TransactionsContext';
 import closeImg from '../../assets/close.svg';
 import incomeImg from "../../assets/income.svg";
 import outcomeImg from "../../assets/outcome.svg";
-import { FormEvent, useState } from "react";
+
+
+import { Container, TransactionTypeContainer, RadioBox } from "./styles"
 
 interface NewTransactionModalProps {
     isOpen: boolean;
     onRequestClose: () => void;
 }
 
-interface FormValues {
-    title: string;
-    value: number;
-    category: string;
-  }
-
 type Type = "deposit" | "withdraw";
 
-type FormObjectValue = "title" | "value" | "category";
-
-
 export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModalProps) {
-    const [type, setType] = useState<Type>("deposit");
-    const [values, setValues] = useState<FormValues>({
-        title: "",
-        category: "",
-        value: 0
-      });    
-    
-    function handleCreateNewTransaction(event: FormEvent) {
-        event.preventDefault();
-    }
+    const { createTransaction } = useTransactions();
 
-    function handleChange(prop: FormObjectValue, value: string | number) {
-        setValues({ ...values, [prop]: value });
+    const [type, setType] = useState<Type>("deposit");
+    const [title, setTitle] = useState('');
+    const [amount, setAmout] = useState(0);
+    const [category, setCategory] = useState('');  
+    
+    async function handleCreateNewTransaction(event: FormEvent) {
+        event.preventDefault();
+
+        await createTransaction({ type, title, amount, category });
+
+        setType('deposit');
+        setTitle('');
+        setAmout(0);
+        setCategory('');
+        
+        onRequestClose();
     }
     
     return (
@@ -56,13 +55,14 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
                 <h2>Cadastrar transação</h2>
                 <input
                     placeholder="Título"
-                    value={values.title}
-                    onChange={e => handleChange("title", e.target.value)}
+                    value={ title }
+                    onChange={({ target }) => setTitle(target.value)}
                 />
                 <input
                     placeholder="Valor"
                     type="number"
-                    onChange={e => handleChange("value", Number(e.target.value))}
+                    value={ amount }
+                    onChange={({ target }) => setAmout(Number(target.value))}
                 />
 
                 <TransactionTypeContainer>
@@ -86,8 +86,10 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
                     </RadioBox>
                 </TransactionTypeContainer>
                 <input
+                    type="text"
                     placeholder="Categoria"
-                    onChange={e => handleChange("category", e.target.value)}
+                    value={category}
+                    onChange={({ target }) => setCategory(target.value)}
                 />
                 <button type="submit">Cadastrar</button>
             </Container>
