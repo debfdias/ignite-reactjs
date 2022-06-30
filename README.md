@@ -19,3 +19,5 @@ Collection of annotations, challenges and several content of Ignite's ReactJS tr
 ### Chapter II
 
 - [DT Money - Going deeper into React](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_II/dt_money)
+- [Challenge 01 - Online cart hook](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_II/challenge1)
+- [Challenge 02 - Refactoring classes](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_II/challenge2)
