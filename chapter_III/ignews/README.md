@@ -2,8 +2,8 @@
 </h1>
 
 <p align="center">
-   <img src="./.github/logo.svg" alt="ignews" width="300"/>
-   <img src="https://raw.githubusercontent.com/debfdias/ignite-reactjs/tree/main/chapter_III/ignews/public/images/avatar.svg" alt="ignews_girl" width="100px"/>
+   <img src="./.github/logo.svg" alt="ignews" width="200"/>
+   <img src="https://github.com/debfdias/ignite-reactjs/blob/main/chapter_III/ignews/public/images/avatar.svg" alt="ignews_girl" width="100px"/>
 </p>
 
 <p align="center">
@@ -140,8 +140,8 @@ npm run slicemachine
 ## :framed_picture: Screenshots ##
 
 <h1 align="center">
-    <img alt = "Screen1" src = "./.github/scree2.png" width = "500px" />
-    <img alt = "Screen2" src = "./.github/screen3.png" width = "500px" />
+    <img alt = "Screen1" src = "./.github/screen1.png" width = "700px" />
+    <img alt = "Screen2" src = "./.github/screen2.png" width = "700px" />
 </h1>
 
 
