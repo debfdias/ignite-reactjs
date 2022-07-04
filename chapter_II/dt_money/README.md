@@ -9,7 +9,7 @@
 
 
 <div align="center">
-   <img src="./.github/screen1.png" width="500px">
+   <img src="./.github/screen1.png" width="700px">
 </div>
 
 ## :rocket: Technologies
