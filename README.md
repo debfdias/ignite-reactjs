@@ -26,3 +26,6 @@ Collection of annotations, challenges and several content of Ignite's ReactJS tr
 
 - [ignews - A news subscriber using Next, Stripe, FaunaDB](
 https://github.com/debfdias/ignite-reactjs/tree/main/chapter_III/ignews)
+- [Challenge 01 - Space Traveling blog](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_III/challenge01)
+
+

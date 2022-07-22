@@ -2,7 +2,7 @@
 </h1>
 
 <p align="center">
-   <img src="./.github/Logo.svg" alt="spacetraveling" width="200"/>
+   <img src="./.github/Logo.svg" alt="spacetraveling" width="400"/>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 ---
 
 <div align="center">
-   <img src="./.github/screen1.png" width="700px">
+   <img src="./.github/screen1.png" width="800px">
 </div>
 
 <br>
@@ -32,7 +32,7 @@ This project was made using the follow technologies:
 $ git clone https://github.com/debfdias/ignite-reactjs/
 
 # Access folder 
-$ cd chapter_iii/challenge05
+$ cd chapter_iii/challenge01
 
 # Install dependencies
 $ yarn install
