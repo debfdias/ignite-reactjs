@@ -2,7 +2,7 @@
 </h1>
 
 <p align="center">
-   <img src="./.github/logo.svg" alt="dashgo" width="200"/>
+   <img src="./.github/logo.svg" alt="dashgo" width="400"/>
 </p>
 
 <p align="center">
@@ -11,10 +11,6 @@
 </p>
 
 ---
-
-<div align="center">
-   <img src="./.github/screen1.png" width="700px">
-</div>
 
 <br>
 
