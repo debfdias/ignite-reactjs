@@ -28,4 +28,10 @@ Collection of annotations, challenges and several content of Ignite's ReactJS tr
 https://github.com/debfdias/ignite-reactjs/tree/main/chapter_III/ignews)
 - [Challenge 01 - Space Traveling blog](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_III/challenge01)
 
+### Chapter IV
+
+- [dashgo - A complete dashboard built with Next and Chakra.ui](
+https://github.com/debfdias/ignite-reactjs/tree/main/chapter_IV/dashgo)
+- [Challenge 01 - Chakra.ui interfaces](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_IV/challenge1)
+- [Challenge 02 - Image upload](https://github.com/debfdias/ignite-reactjs/tree/main/chapter_IV/challenge2)
 
